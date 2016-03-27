@@ -1,22 +1,97 @@
 @charset "UTF-8";
-
-/*
- * import libraries
- */
-
 html {
-  font-size: 62.5%;
-}
+  font-size: 62.5%; }
 
 body {
-  background-color: #f0f0f2;
-  color: #242;
-  font-size: 1.4em;
-  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
-}
+  background-color: #fcf8f7;
+  color: #040201;
+  font-family: 'Open sans', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  font-size: 1.4em; }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
+
+html,
+body,
+main,
+ul,
+li,
+.service {
+  height: 100%;
+  position: relative;
+  width: 100%; }
+
+main:after {
+  color: black;
+  content: '@kaave';
+  display: block;
+  font-family: Impact;
+  font-size: 20rem;
+  font-style: italic;
+  font-weight: 700;
+  height: auto;
+  left: 0;
+  letter-spacing: -1.5rem;
+  padding-right: 3rem;
+  position: absolute;
+  text-align: right;
+  top: 6%;
+  width: 100%;
+  z-index: 1; }
+
+ul {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 2; }
+  ul li {
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: center; }
+
+.service {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fcf8f7;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  transition: text-shadow .3s ease-out; }
+  .service span {
+    font-size: 3rem; }
+  .service i {
+    display: block;
+    font-size: 6rem;
+    text-align: center; }
+
+.github {
+  background-color: rgba(4, 2, 1, 0.95); }
+  .github .service:hover {
+    text-shadow: 4px 4px 3px rgba(255, 255, 255, 0.5); }
+
+.blog {
+  background-color: rgba(28, 85, 31, 0.95); }
+  .blog .service:hover {
+    text-shadow: 4px 4px 3px black; }
+
+.twitter {
+  background-color: rgba(75, 155, 195, 0.95); }
+  .twitter .service:hover {
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5); }
