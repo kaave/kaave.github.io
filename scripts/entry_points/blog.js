@@ -81,6 +81,7 @@ var BlogDetail = function (_Component) {
       var date = _props.date;
       var title = _props.title;
       var tags = _props.tags;
+      var content = _props.content;
 
 
       return _react2.default.createElement(
@@ -113,9 +114,10 @@ var BlogDetail = function (_Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'blog-contents__title' },
+          { className: 'blog-detail__title blog-contents__title', onClick: handleClick },
           title
-        )
+        ),
+        _react2.default.createElement('div', { dangerouslySetInnerHTML: { __html: content } })
       );
     }
   }]);
@@ -338,7 +340,7 @@ var MountComponent = function (_Component) {
       detail: null
     };
 
-    ['handleClick'].forEach(function (methodName) {
+    ['handleClickList', 'handleClickDetail'].forEach(function (methodName) {
       return _this[methodName] = _this[methodName].bind(_this);
     });
 
@@ -393,15 +395,23 @@ var MountComponent = function (_Component) {
       });
     }
   }, {
-    key: 'handleClick',
-    value: function handleClick(index) {
+    key: 'handleClickList',
+    value: function handleClickList(index) {
       // this.setState(Object.assign({}, this.state, { detail: null }));
       this.getDetail(this.state.contents[index]);
     }
   }, {
+    key: 'handleClickDetail',
+    value: function handleClickDetail() {
+      this.setState((0, _assign2.default)({}, this.state, {
+        detail: null
+      }));
+    }
+  }, {
     key: 'render',
     value: function render() {
-      var handleClick = this.handleClick;
+      var handleClickList = this.handleClickList;
+      var handleClickDetail = this.handleClickDetail;
       var _state = this.state;
       var contents = _state.contents;
       var detail = _state.detail;
@@ -430,7 +440,7 @@ var MountComponent = function (_Component) {
                 date: (0, _moment2.default)(date),
                 title: title,
                 tags: tags,
-                onClick: handleClick
+                onClick: handleClickList
               });
             })
           )
@@ -446,7 +456,7 @@ var MountComponent = function (_Component) {
             date: (0, _moment2.default)(detail.date),
             title: detail.title,
             tags: detail.tags,
-            onClick: handleClick,
+            onClick: handleClickDetail,
             content: detail.content
           }) : null
         )
