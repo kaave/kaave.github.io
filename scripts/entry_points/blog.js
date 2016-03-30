@@ -422,7 +422,7 @@ var MountComponent = function (_Component) {
         null,
         _react2.default.createElement(
           'ul',
-          { className: 'blog-list' },
+          { className: 'blog-list ' + (detail ? 'blog-list__filter' : '') },
           _react2.default.createElement(
             _reactAddonsCssTransitionGroup2.default,
             {
