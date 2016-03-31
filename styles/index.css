@@ -87,9 +87,11 @@ ul {
     text-shadow: 4px 4px 3px rgba(255, 255, 255, 0.5); }
 
 .blog {
-  background-color: rgba(28, 85, 31, 0.95); }
-  .blog .service:hover {
-    text-shadow: 4px 4px 3px black; }
+  background-color: rgba(252, 248, 247, 0.95); }
+  .blog .service {
+    color: #040201; }
+    .blog .service:hover {
+      text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.4); }
 
 .twitter {
   background-color: rgba(75, 155, 195, 0.95); }
