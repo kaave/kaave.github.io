@@ -10,6 +10,18 @@
     },
     "items": [
         {
+            "id": "https://kaave.github.io/blog/2017/07/02-ordinary-day.html",
+            "html_content": "<h2 id=\"github-io-\">github.io作り直しました</h2>\n<p>もう全部いじりました。つってもまぁ基本的な部分はそのままですが。</p>\n<p>これを気に思い立ったときにだけ更新するようにします。</p>\n<h3 id=\"-\">できたとこ</h3>\n<h4 id=\"-\">モバイルファースト</h4>\n<p>これ結構考えものだなぁと思った。</p>\n<p>少なくともPC版のプロトタイプ(大まかなレイアウト)までやってからスマホ側の構築やんないと、やべぇここにコンテナ的なdivがいるわ、ということがわりと普通に発生するなと。</p>\n<p>幸いデザインがあってないようなものだったのでなんとかなりました。</p>\n<h4 id=\"rss-atom-\">RSS(atom)対応</h4>\n<p><a href=\"https://www.npmjs.com/package/feed\">feed</a>という素晴らしいモジュールがすべて解決してくれました。</p>\n<h4 id=\"-\">アニメーション連発</h4>\n<p>やってみたらできたってやつです。</p>\n<h4 id=\"react-router-\">react-routerで構築</h4>\n<p>これがなかなかめんどくさかった。</p>\n<p>URLから目的のJSONをfetchしてきて表示する、ということをやっているんですが、URLにマッチしたcomponentの中でパラメータを取得してそれを親に返してうんぬんかんぬんしてます。</p>\n<p>微妙、の一言。まぁreact-routerのおかげで記事それぞれにURL発行できたんですが。</p>\n<h4 id=\"highlight-js-\">highlight.js対応</h4>\n<p>前もやってたっけ？もはや記憶にないしコードもふっ飛ばした。</p>\n<h3 id=\"-\">できなかったとこ</h3>\n<h4 id=\"gulp-ssr\">gulpタスク内でSSR</h4>\n<p>最初は楽勝だろと思ってたんですが、よく考えたらJSXをgulpから読み込まないといけないからクソめんどくない？って気づいて一気に嫌になりました。</p>\n<p>今は記事毎にrootと同じhtmlを作成して404にならないようにして、あとは遷移先でreact-routerがよしなにやってくれるのに任せてます。</p>\n<p>gulp-babelとか使えばできそうではあります。</p>\n<h2 id=\"-\">日記</h2>\n<p>長久手のイオンに行ってきました。</p>\n<p>インナーバッグがほしいなーってのと、自転車に乗っておきたいなーっていう理由で。</p>\n<p>イオンっていうと吹き抜けが凄いイメージだったけど、そうじゃなかったので意外だった。あと、混みすぎ。</p>\n",
+            "url": "https://kaave.github.io/blog/2017/07/02-ordinary-day.html",
+            "title": "作り直しました",
+            "summary": "Reactgulp",
+            "date_modified": "2017-07-02T00:00:00Z",
+            "author": {
+                "name": "kaave",
+                "url": "https://kaave.github.io/"
+            }
+        },
+        {
             "id": "https://kaave.github.io/blog/2016/04/05-stand-and-write.html",
             "html_content": "<h2 id=\"-\">立ちっぱなし</h2>\n<p>打ち合わせでホワイトボード書きまくったので疲れた。</p>\n<h3 id=\"-\">めし</h3>\n<h3 id=\"-\">買い物</h3>\n<h3 id=\"-\">お勉強</h3>\n<h3 id=\"-\">遊び</h3>\n",
             "url": "https://kaave.github.io/blog/2016/04/05-stand-and-write.html",
@@ -48,17 +60,6 @@
             "url": "https://kaave.github.io/blog/2016/04/02-ordinary-day.html",
             "title": "特に何もしなかった",
             "date_modified": "2016-04-02T00:00:00Z",
-            "author": {
-                "name": "kaave",
-                "url": "https://kaave.github.io/"
-            }
-        },
-        {
-            "id": "https://kaave.github.io/blog/2016/04/01-envy.html",
-            "html_content": "<h2 id=\"envy\">envy</h2>\n<p>深川さん辞めちゃうってマジかいな。エイプリルフールであって欲しいけど・・・。本当に残念だ。</p>\n<h3 id=\"-\">仕事</h3>\n<p>Reactでモーダル作ったりその手の小物バンバン作ってた。</p>\n<h3 id=\"-\">めし</h3>\n<p>結構飲んだ。</p>\n",
-            "url": "https://kaave.github.io/blog/2016/04/01-envy.html",
-            "title": "envy",
-            "date_modified": "2016-04-01T00:00:00Z",
             "author": {
                 "name": "kaave",
                 "url": "https://kaave.github.io/"

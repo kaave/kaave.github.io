@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kaave.github.io/</id>
     <title>kaave portal site | blog</title>
-    <updated>2017-07-02T01:19:32Z</updated>
+    <updated>2017-07-02T08:18:52Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>kaave</name>
@@ -14,6 +14,52 @@
     <subtitle>kaave portal site | blog</subtitle>
     <icon>https://kaave.github.io/</icon>
     <rights>All rights reserved 2016 - 2017, kaave</rights>
+    <entry>
+        <title type="html"><![CDATA[作り直しました]]></title>
+        <id>https://kaave.github.io/blog/2017/07/02-ordinary-day.html</id>
+        <link href="https://kaave.github.io/blog/2017/07/02-ordinary-day.html">
+        </link>
+        <updated>2017-07-02T00:00:00Z</updated>
+        <summary type="html"><![CDATA[Reactgulp]]></summary>
+        <content type="html"><![CDATA[<h2 id="github-io-">github.io作り直しました</h2>
+<p>もう全部いじりました。つってもまぁ基本的な部分はそのままですが。</p>
+<p>これを気に思い立ったときにだけ更新するようにします。</p>
+<h3 id="-">できたとこ</h3>
+<h4 id="-">モバイルファースト</h4>
+<p>これ結構考えものだなぁと思った。</p>
+<p>少なくともPC版のプロトタイプ(大まかなレイアウト)までやってからスマホ側の構築やんないと、やべぇここにコンテナ的なdivがいるわ、ということがわりと普通に発生するなと。</p>
+<p>幸いデザインがあってないようなものだったのでなんとかなりました。</p>
+<h4 id="rss-atom-">RSS(atom)対応</h4>
+<p><a href="https://www.npmjs.com/package/feed">feed</a>という素晴らしいモジュールがすべて解決してくれました。</p>
+<h4 id="-">アニメーション連発</h4>
+<p>やってみたらできたってやつです。</p>
+<h4 id="react-router-">react-routerで構築</h4>
+<p>これがなかなかめんどくさかった。</p>
+<p>URLから目的のJSONをfetchしてきて表示する、ということをやっているんですが、URLにマッチしたcomponentの中でパラメータを取得してそれを親に返してうんぬんかんぬんしてます。</p>
+<p>微妙、の一言。まぁreact-routerのおかげで記事それぞれにURL発行できたんですが。</p>
+<h4 id="highlight-js-">highlight.js対応</h4>
+<p>前もやってたっけ？もはや記憶にないしコードもふっ飛ばした。</p>
+<h3 id="-">できなかったとこ</h3>
+<h4 id="gulp-ssr">gulpタスク内でSSR</h4>
+<p>最初は楽勝だろと思ってたんですが、よく考えたらJSXをgulpから読み込まないといけないからクソめんどくない？って気づいて一気に嫌になりました。</p>
+<p>今は記事毎にrootと同じhtmlを作成して404にならないようにして、あとは遷移先でreact-routerがよしなにやってくれるのに任せてます。</p>
+<p>gulp-babelとか使えばできそうではあります。</p>
+<h2 id="-">日記</h2>
+<p>長久手のイオンに行ってきました。</p>
+<p>インナーバッグがほしいなーってのと、自転車に乗っておきたいなーっていう理由で。</p>
+<p>イオンっていうと吹き抜けが凄いイメージだったけど、そうじゃなかったので意外だった。あと、混みすぎ。</p>
+]]></content>
+        <author>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </author>
+        <contributor>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </contributor>
+    </entry>
     <entry>
         <title type="html"><![CDATA[立ちっぱなし]]></title>
         <id>https://kaave.github.io/blog/2016/04/05-stand-and-write.html</id>
@@ -91,30 +137,6 @@
         <updated>2016-04-02T00:00:00Z</updated>
         <content type="html"><![CDATA[<h2 id="-">なにもしなかった</h2>
 <p>勉強も遊びも家の掃除もなんもしてない。<br>どうも土曜日はこうなりがち。</p>
-]]></content>
-        <author>
-            <name>kaave</name>
-            <email>junkjunction@gmail.com</email>
-            <uri>https://kaave.github.io/</uri>
-        </author>
-        <contributor>
-            <name>kaave</name>
-            <email>junkjunction@gmail.com</email>
-            <uri>https://kaave.github.io/</uri>
-        </contributor>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[envy]]></title>
-        <id>https://kaave.github.io/blog/2016/04/01-envy.html</id>
-        <link href="https://kaave.github.io/blog/2016/04/01-envy.html">
-        </link>
-        <updated>2016-04-01T00:00:00Z</updated>
-        <content type="html"><![CDATA[<h2 id="envy">envy</h2>
-<p>深川さん辞めちゃうってマジかいな。エイプリルフールであって欲しいけど・・・。本当に残念だ。</p>
-<h3 id="-">仕事</h3>
-<p>Reactでモーダル作ったりその手の小物バンバン作ってた。</p>
-<h3 id="-">めし</h3>
-<p>結構飲んだ。</p>
 ]]></content>
         <author>
             <name>kaave</name>
