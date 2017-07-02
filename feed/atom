@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kaave.github.io/</id>
     <title>kaave portal site | blog</title>
-    <updated>2017-07-02T08:18:52Z</updated>
+    <updated>2017-07-02T13:51:13Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>kaave</name>
@@ -15,7 +15,7 @@
     <icon>https://kaave.github.io/</icon>
     <rights>All rights reserved 2016 - 2017, kaave</rights>
     <entry>
-        <title type="html"><![CDATA[作り直しました]]></title>
+        <title type="html"><![CDATA[サイトまるごと作り直しました]]></title>
         <id>https://kaave.github.io/blog/2017/07/02-ordinary-day.html</id>
         <link href="https://kaave.github.io/blog/2017/07/02-ordinary-day.html">
         </link>
@@ -23,7 +23,7 @@
         <summary type="html"><![CDATA[Reactgulp]]></summary>
         <content type="html"><![CDATA[<h2 id="github-io-">github.io作り直しました</h2>
 <p>もう全部いじりました。つってもまぁ基本的な部分はそのままですが。</p>
-<p>これを気に思い立ったときにだけ更新するようにします。</p>
+<p>これを機に思い立ったときにだけ更新するようにします。</p>
 <h3 id="-">できたとこ</h3>
 <h4 id="-">モバイルファースト</h4>
 <p>これ結構考えものだなぁと思った。</p>
@@ -31,6 +31,8 @@
 <p>幸いデザインがあってないようなものだったのでなんとかなりました。</p>
 <h4 id="rss-atom-">RSS(atom)対応</h4>
 <p><a href="https://www.npmjs.com/package/feed">feed</a>という素晴らしいモジュールがすべて解決してくれました。</p>
+<h4 id="-">グリッドレイアウト</h4>
+<p>サイト全体を単純に区切るだけなら全然悪くない。問題はモバイルの対応がほんとつい最近だったってことかな。</p>
 <h4 id="-">アニメーション連発</h4>
 <p>やってみたらできたってやつです。</p>
 <h4 id="react-router-">react-routerで構築</h4>
