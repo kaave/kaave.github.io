@@ -1,0 +1,68 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "kaave portal site | blog",
+    "home_page_url": "https://kaave.github.io/",
+    "feed_url": "https://kaave.github.io/feed/json",
+    "description": "kaave portal site | blog",
+    "author": {
+        "name": "kaave",
+        "url": "https://kaave.github.io/"
+    },
+    "items": [
+        {
+            "id": "https://kaave.github.io/blog/2016/04/05-stand-and-write.html",
+            "html_content": "<h2 id=\"-\">立ちっぱなし</h2>\n<p>打ち合わせでホワイトボード書きまくったので疲れた。</p>\n<h3 id=\"-\">めし</h3>\n<h3 id=\"-\">買い物</h3>\n<h3 id=\"-\">お勉強</h3>\n<h3 id=\"-\">遊び</h3>\n",
+            "url": "https://kaave.github.io/blog/2016/04/05-stand-and-write.html",
+            "title": "立ちっぱなし",
+            "date_modified": "2016-04-05T00:00:00Z",
+            "author": {
+                "name": "kaave",
+                "url": "https://kaave.github.io/"
+            }
+        },
+        {
+            "id": "https://kaave.github.io/blog/2016/04/04-css-animation.html",
+            "html_content": "<h2 id=\"-\">ささっと</h2>\n<p>仕事で右からニュッと出てくるメニューをCSSアニメーション使って書いた。<br>いや〜CSSアニメーションホント楽。</p>\n<h3 id=\"-\">めし</h3>\n<p>豚肉とにんにくの芽炒めを作った。</p>\n",
+            "url": "https://kaave.github.io/blog/2016/04/04-css-animation.html",
+            "title": "ささっと",
+            "date_modified": "2016-04-04T00:00:00Z",
+            "author": {
+                "name": "kaave",
+                "url": "https://kaave.github.io/"
+            }
+        },
+        {
+            "id": "https://kaave.github.io/blog/2016/04/03-atr.html",
+            "html_content": "<h2 id=\"atr\">ATR</h2>\n<p>シャキッとしないのでATR聞いているが、ハイテンションになるための音楽としてATRを超えるものはなかなかないんじゃないだろうか。</p>\n<h3 id=\"-\">めし</h3>\n<p>ラフテーとレンズ豆のマリネ作った。</p>\n<p>レンズ豆は5~6分茹でると硬さが残っていい感じ。</p>\n",
+            "url": "https://kaave.github.io/blog/2016/04/03-atr.html",
+            "title": "ATR",
+            "date_modified": "2016-04-03T00:00:00Z",
+            "author": {
+                "name": "kaave",
+                "url": "https://kaave.github.io/"
+            }
+        },
+        {
+            "id": "https://kaave.github.io/blog/2016/04/02-ordinary-day.html",
+            "html_content": "<h2 id=\"-\">なにもしなかった</h2>\n<p>勉強も遊びも家の掃除もなんもしてない。<br>どうも土曜日はこうなりがち。</p>\n",
+            "url": "https://kaave.github.io/blog/2016/04/02-ordinary-day.html",
+            "title": "特に何もしなかった",
+            "date_modified": "2016-04-02T00:00:00Z",
+            "author": {
+                "name": "kaave",
+                "url": "https://kaave.github.io/"
+            }
+        },
+        {
+            "id": "https://kaave.github.io/blog/2016/04/01-envy.html",
+            "html_content": "<h2 id=\"envy\">envy</h2>\n<p>深川さん辞めちゃうってマジかいな。エイプリルフールであって欲しいけど・・・。本当に残念だ。</p>\n<h3 id=\"-\">仕事</h3>\n<p>Reactでモーダル作ったりその手の小物バンバン作ってた。</p>\n<h3 id=\"-\">めし</h3>\n<p>結構飲んだ。</p>\n",
+            "url": "https://kaave.github.io/blog/2016/04/01-envy.html",
+            "title": "envy",
+            "date_modified": "2016-04-01T00:00:00Z",
+            "author": {
+                "name": "kaave",
+                "url": "https://kaave.github.io/"
+            }
+        }
+    ]
+}

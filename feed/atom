@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://kaave.github.io/</id>
+    <title>kaave portal site | blog</title>
+    <updated>2017-07-02T00:50:53Z</updated>
+    <generator>Feed for Node.js</generator>
+    <author>
+        <name>kaave</name>
+        <email>junkjunction@gmail.com</email>
+        <uri>https://kaave.github.io/</uri>
+    </author>
+    <link rel="alternate" href="https://kaave.github.io/"/>
+    <link rel="self" href="https://kaave.github.io/feed/atom"/>
+    <subtitle>kaave portal site | blog</subtitle>
+    <icon>https://kaave.github.io/</icon>
+    <rights>All rights reserved 2016 - 2017, kaave</rights>
+    <entry>
+        <title type="html"><![CDATA[立ちっぱなし]]></title>
+        <id>https://kaave.github.io/blog/2016/04/05-stand-and-write.html</id>
+        <link href="https://kaave.github.io/blog/2016/04/05-stand-and-write.html">
+        </link>
+        <updated>2016-04-05T00:00:00Z</updated>
+        <content type="html"><![CDATA[<h2 id="-">立ちっぱなし</h2>
+<p>打ち合わせでホワイトボード書きまくったので疲れた。</p>
+<h3 id="-">めし</h3>
+<h3 id="-">買い物</h3>
+<h3 id="-">お勉強</h3>
+<h3 id="-">遊び</h3>
+]]></content>
+        <author>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </author>
+        <contributor>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ささっと]]></title>
+        <id>https://kaave.github.io/blog/2016/04/04-css-animation.html</id>
+        <link href="https://kaave.github.io/blog/2016/04/04-css-animation.html">
+        </link>
+        <updated>2016-04-04T00:00:00Z</updated>
+        <content type="html"><![CDATA[<h2 id="-">ささっと</h2>
+<p>仕事で右からニュッと出てくるメニューをCSSアニメーション使って書いた。<br>いや〜CSSアニメーションホント楽。</p>
+<h3 id="-">めし</h3>
+<p>豚肉とにんにくの芽炒めを作った。</p>
+]]></content>
+        <author>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </author>
+        <contributor>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ATR]]></title>
+        <id>https://kaave.github.io/blog/2016/04/03-atr.html</id>
+        <link href="https://kaave.github.io/blog/2016/04/03-atr.html">
+        </link>
+        <updated>2016-04-03T00:00:00Z</updated>
+        <content type="html"><![CDATA[<h2 id="atr">ATR</h2>
+<p>シャキッとしないのでATR聞いているが、ハイテンションになるための音楽としてATRを超えるものはなかなかないんじゃないだろうか。</p>
+<h3 id="-">めし</h3>
+<p>ラフテーとレンズ豆のマリネ作った。</p>
+<p>レンズ豆は5~6分茹でると硬さが残っていい感じ。</p>
+]]></content>
+        <author>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </author>
+        <contributor>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[特に何もしなかった]]></title>
+        <id>https://kaave.github.io/blog/2016/04/02-ordinary-day.html</id>
+        <link href="https://kaave.github.io/blog/2016/04/02-ordinary-day.html">
+        </link>
+        <updated>2016-04-02T00:00:00Z</updated>
+        <content type="html"><![CDATA[<h2 id="-">なにもしなかった</h2>
+<p>勉強も遊びも家の掃除もなんもしてない。<br>どうも土曜日はこうなりがち。</p>
+]]></content>
+        <author>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </author>
+        <contributor>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[envy]]></title>
+        <id>https://kaave.github.io/blog/2016/04/01-envy.html</id>
+        <link href="https://kaave.github.io/blog/2016/04/01-envy.html">
+        </link>
+        <updated>2016-04-01T00:00:00Z</updated>
+        <content type="html"><![CDATA[<h2 id="envy">envy</h2>
+<p>深川さん辞めちゃうってマジかいな。エイプリルフールであって欲しいけど・・・。本当に残念だ。</p>
+<h3 id="-">仕事</h3>
+<p>Reactでモーダル作ったりその手の小物バンバン作ってた。</p>
+<h3 id="-">めし</h3>
+<p>結構飲んだ。</p>
+]]></content>
+        <author>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </author>
+        <contributor>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </contributor>
+    </entry>
+</feed>
