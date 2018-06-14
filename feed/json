@@ -22,18 +22,6 @@
             }
         },
         {
-            "id": "https://kaave.github.io/blog/2018/04/09-ordinary-day.html",
-            "html_content": "<p>このところどうしてもデスクトップLinuxを構築したいという&quot;渇望&quot;が静まらず、<br>大須をぶらついている際に目に入ったThinkpad X230をつい購入してしまいました。</p>\n<p>人生初のガチデスクトップLinuxでございます。</p>\n<h3 id=\"-\">お値段</h3>\n<ul>\n<li>本体(SSD256GB, メモリ4GB, Windows 10 Proプリインストール): 39,800YEN</li>\n<li>増設用メモリ4GB: 4000YEN くらい</li>\n<li>英語キーボード: 5,980YENくらい</li>\n</ul>\n<p>→だいたい50,000YENくらいでそこそこのスペックのLinuxマシンが手に入りました。</p>\n<h3 id=\"os\">OS</h3>\n<p>Arch Linux: ドライバもろもろがぜんぜんわかんなくて疲れてやめた<br>→Ubuntu Gnome 16.04: 重いのと面白みがないのでやめた<br>→Manjaro Linux: ふつうに使えるところまですんなりいけたけどなんか余分なもん入ってる感が強くてやめた<br>→Arch Linux: 今度こそと思ったけどやっぱつらくてやめた<br>→Manjaro Linux: 結局これが色々とほどよいので採用</p>\n<p>ちなみに、プリインストールされてたWindows 10はうっかりブートローダ潰してどうにもならなくなってしまってパー。バックアップもなし。やらかしてしまいました。まぁどうせ使わないし…</p>\n<h3 id=\"window-manager\">Window manager</h3>\n<p>Awesome。抑えで最初から入ってたXfce。<br>タイル型一度は使ってみたかったのです。自分にはかなり合うなぁという感想。</p>\n",
-            "url": "https://kaave.github.io/blog/2018/04/09-ordinary-day.html",
-            "title": "中古のThinkpad X230でデスクトップLinuxを構築するまで",
-            "summary": "LinuxThinkpad",
-            "date_modified": "2018-04-09T00:00:00Z",
-            "author": {
-                "name": "kaave",
-                "url": "https://kaave.github.io/"
-            }
-        },
-        {
             "id": "https://kaave.github.io/blog/2017/07/02-ordinary-day.html",
             "html_content": "<h2 id=\"github-io-\">github.io作り直しました</h2>\n<p>もう全部いじりました。つってもまぁ基本的な部分はそのままですが。</p>\n<p>これを機に思い立ったときにだけ更新するようにします。</p>\n<h3 id=\"-\">できたとこ</h3>\n<h4 id=\"-\">モバイルファースト</h4>\n<p>これ結構考えものだなぁと思った。</p>\n<p>少なくともPC版のプロトタイプ(大まかなレイアウト)までやってからスマホ側の構築やんないと、やべぇここにコンテナ的なdivがいるわ、ということがわりと普通に発生するなと。</p>\n<p>幸いデザインがあってないようなものだったのでなんとかなりました。</p>\n<h4 id=\"rss-atom-\">RSS(atom)対応</h4>\n<p><a href=\"https://www.npmjs.com/package/feed\">feed</a>という素晴らしいモジュールがすべて解決してくれました。</p>\n<h4 id=\"-\">グリッドレイアウト</h4>\n<p>サイト全体を単純に区切るだけなら全然悪くない。問題はモバイルの対応がほんとつい最近だったってことかな。</p>\n<h4 id=\"-\">アニメーション連発</h4>\n<p>やってみたらできたってやつです。</p>\n<h4 id=\"react-router-\">react-routerで構築</h4>\n<p>これがなかなかめんどくさかった。</p>\n<p>URLから目的のJSONをfetchしてきて表示する、ということをやっているんですが、URLにマッチしたcomponentの中でパラメータを取得してそれを親に返してうんぬんかんぬんしてます。</p>\n<p>微妙、の一言。まぁreact-routerのおかげで記事それぞれにURL発行できたんですが。</p>\n<h4 id=\"highlight-js-\">highlight.js対応</h4>\n<p>前もやってたっけ？もはや記憶にないしコードもふっ飛ばした。</p>\n<h3 id=\"-\">できなかったとこ</h3>\n<h4 id=\"gulp-ssr\">gulpタスク内でSSR</h4>\n<p>最初は楽勝だろと思ってたんですが、よく考えたらJSXをgulpから読み込まないといけないからクソめんどくない？って気づいて一気に嫌になりました。</p>\n<p>今は記事毎にrootと同じhtmlを作成して404にならないようにして、あとは遷移先でreact-routerがよしなにやってくれるのに任せてます。</p>\n<p>gulp-babelとか使えばできそうではあります。</p>\n<h2 id=\"-\">日記</h2>\n<p>長久手のイオンに行ってきました。</p>\n<p>インナーバッグがほしいなーってのと、自転車に乗っておきたいなーっていう理由で。</p>\n<p>イオンっていうと吹き抜けが凄いイメージだったけど、そうじゃなかったので意外だった。あと、混みすぎ。</p>\n",
             "url": "https://kaave.github.io/blog/2017/07/02-ordinary-day.html",
@@ -62,6 +50,17 @@
             "url": "https://kaave.github.io/blog/2016/04/04-css-animation.html",
             "title": "ささっと",
             "date_modified": "2016-04-04T00:00:00Z",
+            "author": {
+                "name": "kaave",
+                "url": "https://kaave.github.io/"
+            }
+        },
+        {
+            "id": "https://kaave.github.io/blog/2016/04/03-atr.html",
+            "html_content": "<h2 id=\"atr\">ATR</h2>\n<p>シャキッとしないのでATR聞いているが、ハイテンションになるための音楽としてATRを超えるものはなかなかないんじゃないだろうか。</p>\n<h3 id=\"-\">めし</h3>\n<p>ラフテーとレンズ豆のマリネ作った。</p>\n<p>レンズ豆は5~6分茹でると硬さが残っていい感じ。</p>\n",
+            "url": "https://kaave.github.io/blog/2016/04/03-atr.html",
+            "title": "ATR",
+            "date_modified": "2016-04-03T00:00:00Z",
             "author": {
                 "name": "kaave",
                 "url": "https://kaave.github.io/"

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kaave.github.io/</id>
     <title>kaave portal site | blog</title>
-    <updated>2018-06-14T12:59:00Z</updated>
+    <updated>2018-06-14T13:03:40Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>kaave</name>
@@ -76,39 +76,6 @@
 <p>上でも書いたけどわかんないのでネットで拾ってきたのをちょっとカスタムできるくらいで当面はいいかな。</p>
 <h4 id="-">画面まるごと</h4>
 <p><a href="https://html2canvas.hertzen.com/">html2canvas</a>でうまいこといけそうなんだけど、IEが立ちはだかるのであった。IEいらん案件がでてきたらやってみたいね。</p>
-]]></content>
-        <author>
-            <name>kaave</name>
-            <email>junkjunction@gmail.com</email>
-            <uri>https://kaave.github.io/</uri>
-        </author>
-        <contributor>
-            <name>kaave</name>
-            <email>junkjunction@gmail.com</email>
-            <uri>https://kaave.github.io/</uri>
-        </contributor>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中古のThinkpad X230でデスクトップLinuxを構築するまで]]></title>
-        <id>https://kaave.github.io/blog/2018/04/09-ordinary-day.html</id>
-        <link href="https://kaave.github.io/blog/2018/04/09-ordinary-day.html">
-        </link>
-        <updated>2018-04-09T00:00:00Z</updated>
-        <summary type="html"><![CDATA[LinuxThinkpad]]></summary>
-        <content type="html"><![CDATA[<p>このところどうしてもデスクトップLinuxを構築したいという&quot;渇望&quot;が静まらず、<br>大須をぶらついている際に目に入ったThinkpad X230をつい購入してしまいました。</p>
-<p>人生初のガチデスクトップLinuxでございます。</p>
-<h3 id="-">お値段</h3>
-<ul>
-<li>本体(SSD256GB, メモリ4GB, Windows 10 Proプリインストール): 39,800YEN</li>
-<li>増設用メモリ4GB: 4000YEN くらい</li>
-<li>英語キーボード: 5,980YENくらい</li>
-</ul>
-<p>→だいたい50,000YENくらいでそこそこのスペックのLinuxマシンが手に入りました。</p>
-<h3 id="os">OS</h3>
-<p>Arch Linux: ドライバもろもろがぜんぜんわかんなくて疲れてやめた<br>→Ubuntu Gnome 16.04: 重いのと面白みがないのでやめた<br>→Manjaro Linux: ふつうに使えるところまですんなりいけたけどなんか余分なもん入ってる感が強くてやめた<br>→Arch Linux: 今度こそと思ったけどやっぱつらくてやめた<br>→Manjaro Linux: 結局これが色々とほどよいので採用</p>
-<p>ちなみに、プリインストールされてたWindows 10はうっかりブートローダ潰してどうにもならなくなってしまってパー。バックアップもなし。やらかしてしまいました。まぁどうせ使わないし…</p>
-<h3 id="window-manager">Window manager</h3>
-<p>Awesome。抑えで最初から入ってたXfce。<br>タイル型一度は使ってみたかったのです。自分にはかなり合うなぁという感想。</p>
 ]]></content>
         <author>
             <name>kaave</name>
@@ -203,6 +170,29 @@
 <p>仕事で右からニュッと出てくるメニューをCSSアニメーション使って書いた。<br>いや〜CSSアニメーションホント楽。</p>
 <h3 id="-">めし</h3>
 <p>豚肉とにんにくの芽炒めを作った。</p>
+]]></content>
+        <author>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </author>
+        <contributor>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ATR]]></title>
+        <id>https://kaave.github.io/blog/2016/04/03-atr.html</id>
+        <link href="https://kaave.github.io/blog/2016/04/03-atr.html">
+        </link>
+        <updated>2016-04-03T00:00:00Z</updated>
+        <content type="html"><![CDATA[<h2 id="atr">ATR</h2>
+<p>シャキッとしないのでATR聞いているが、ハイテンションになるための音楽としてATRを超えるものはなかなかないんじゃないだろうか。</p>
+<h3 id="-">めし</h3>
+<p>ラフテーとレンズ豆のマリネ作った。</p>
+<p>レンズ豆は5~6分茹でると硬さが残っていい感じ。</p>
 ]]></content>
         <author>
             <name>kaave</name>
