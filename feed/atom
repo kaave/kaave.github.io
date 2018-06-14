@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kaave.github.io/</id>
     <title>kaave portal site | blog</title>
-    <updated>2017-07-03T09:53:26Z</updated>
+    <updated>2018-06-14T12:59:00Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>kaave</name>
@@ -13,7 +13,114 @@
     <link rel="self" href="https://kaave.github.io/feed/atom"/>
     <subtitle>kaave portal site | blog</subtitle>
     <icon>https://kaave.github.io/</icon>
-    <rights>All rights reserved 2016 - 2017, kaave</rights>
+    <rights>All rights reserved 2016 - 2018, kaave</rights>
+    <entry>
+        <title type="html"><![CDATA[Pixi.jsでGlitch]]></title>
+        <id>https://kaave.github.io/blog/2018/06/14-pixi-glitch.html</id>
+        <link href="https://kaave.github.io/blog/2018/06/14-pixi-glitch.html">
+        </link>
+        <updated>2018-06-14T00:00:00Z</updated>
+        <summary type="html"><![CDATA[JavaScriptPixiJSWebGL]]></summary>
+        <content type="html"><![CDATA[<h2 id="-">モチベ</h2>
+<p>別にメディアアートまでいかなくてもいいけどTOPにばばばんと表示されてる画像や背景に表示している画像にエフェクトをかけたりしてみたいなぁというモチベが一年くらい前からくすぶってたんですが、ついに大きな&quot;炎&quot;になったので取り組んでみました。</p>
+<p>まずはライブラリの選択からじゃーってことでPixi.jsかThree.jsのどっちかをかじろうと考えた結果、Pixi.jsをやることに。</p>
+<p>で、色々ぐぐってたら<a href="https://github.com/ktingvoar/PixiGlitch">良さげなコード</a>を発見したんですが結構長いこと更新されておらず、最新のバージョンだと動かなかった&amp;サンプルがイマイチだったので自分でそのへんを更新してみました。</p>
+<h3 id="-">制作物</h3>
+<ul>
+<li><a href="https://romantic-fermat-4102af.netlify.com/filter.html">Demo</a></li>
+<li><a href="https://github.com/kaave/playground-pixi-js">Repository</a><ul>
+<li>面倒くさくて検証用の環境使ってそのまま書いちゃってるのでそのうち移転するかも。</li>
+</ul>
+</li>
+</ul>
+<h3 id="demo-">Demoについて</h3>
+<h4 id="-">操作方法</h4>
+<ul>
+<li>左上のプルダウンからエフェクトかける対象を選択できます。プリセット画像、デバイスのカメラ、アップロード画像のいずれかとなります。<ul>
+<li>アップロード画像はgif, jpg, pngに対応しています。</li>
+<li>アップロードフォームを隠してプルダウンの選択で発火するようにしたかったんですがセキュリティの関係でアウツ。なんとかする方法ってあるんですかね？</li>
+</ul>
+</li>
+<li>右のフォームでエフェクトを選択します。<ul>
+<li>色系はON/OFFしかないです。</li>
+<li>その他は色々パラメータがあるんでついでにランダムもつけました。乱数のアルゴリズムは単なる<code>Math.random</code>なので微妙です。</li>
+</ul>
+</li>
+<li>キーボードでエフェクトのON/OFF、ランダムのON/OFFを設定できます。<ul>
+<li>フォームの名称右にカッコでくくられた一文字があると思いますが、そのキーを押すとON/OFFが切り替わります。</li>
+<li><code>shift</code>を押しながらでランダムのON/OFFが切り替わります。</li>
+<li><code>enter</code>ですべてのエフェクトがOFFになります。</li>
+<li><code>shift</code>を押しながら<code>enter</code>ですべてのランダムがOFFになります。</li>
+<li>とりあえず<code>a</code>を叩いて<code>shift+a</code>を叩き、ほかをいじってくのがおもしろいです！ソースはもちろんカメラで！</li>
+</ul>
+</li>
+</ul>
+<h4 id="netlify">Netlify</h4>
+<p>GitHub Pagesでもよかったんですが面倒くさかったのでNetlifyに。相も変わらず楽すぎます！もうちょっと回線がぶっとくなるといいなぁ。</p>
+<h3 id="-">コードとかそのへん</h3>
+<h4 id="webpack-">webpackさまさま</h4>
+<p>シェーダーのコードを<code>.frag</code>で別ファイルに構築し、<code>raw-loader</code>で読み込む環境を作りました。これが非常にいい感じ。</p>
+<h4 id="typescript-pixi-js">TypeScriptでPixi.js</h4>
+<p>どうも型ファイルが色々と変でいくつか<code>any</code>でごまかしました。あんまいいことじゃないけど。だって型ファイルに手ぇ入れてプルリク出すほどPixi.jsわかんないんで。</p>
+<h4 id="-">シェーダーわからん</h4>
+<p>これは&quot;特殊技能&quot;でWeb屋にこれを求めたらいかんなという印象ですがいかがなもんでしょう…。</p>
+<h4 id="web-pixi-js-">Webアクセシビリティに準拠したPixi.jsの使い方</h4>
+<p>今回は画像をゴリゴリやってるだけなので<code>role=&quot;presentation&quot;</code>つけときゃとりあえずいいかなって内容なんですが、例えばキャッチコピーをばんとテキストで入れてそいつをごりごりいじったときにどうすんのがいいんでしょう？</p>
+<p><code>canvas</code>に<code>aria-label</code>とか？そのうち調べよう・・・。</p>
+<h3 id="-">今後</h3>
+<h4 id="-">斜めに画像をちょん切りたい</h4>
+<p>あんまグリッチって感じじゃないけどどうやってやるのかまだ調べてないんですけど画像を斜めにスライスして個別に移動とかやりたいんですよね。</p>
+<h4 id="dom-">DOMではできないテキスト表現</h4>
+<p>小さなテキストを死ぬほど描画していろいろやりたい。ファミコンをどついたような感じというか。DOMでやるより軽そうだし…。</p>
+<h4 id="-">シェーダーはよくわかんない</h4>
+<p>上でも書いたけどわかんないのでネットで拾ってきたのをちょっとカスタムできるくらいで当面はいいかな。</p>
+<h4 id="-">画面まるごと</h4>
+<p><a href="https://html2canvas.hertzen.com/">html2canvas</a>でうまいこといけそうなんだけど、IEが立ちはだかるのであった。IEいらん案件がでてきたらやってみたいね。</p>
+]]></content>
+        <author>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </author>
+        <contributor>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中古のThinkpad X230でデスクトップLinuxを構築するまで]]></title>
+        <id>https://kaave.github.io/blog/2018/04/09-ordinary-day.html</id>
+        <link href="https://kaave.github.io/blog/2018/04/09-ordinary-day.html">
+        </link>
+        <updated>2018-04-09T00:00:00Z</updated>
+        <summary type="html"><![CDATA[LinuxThinkpad]]></summary>
+        <content type="html"><![CDATA[<p>このところどうしてもデスクトップLinuxを構築したいという&quot;渇望&quot;が静まらず、<br>大須をぶらついている際に目に入ったThinkpad X230をつい購入してしまいました。</p>
+<p>人生初のガチデスクトップLinuxでございます。</p>
+<h3 id="-">お値段</h3>
+<ul>
+<li>本体(SSD256GB, メモリ4GB, Windows 10 Proプリインストール): 39,800YEN</li>
+<li>増設用メモリ4GB: 4000YEN くらい</li>
+<li>英語キーボード: 5,980YENくらい</li>
+</ul>
+<p>→だいたい50,000YENくらいでそこそこのスペックのLinuxマシンが手に入りました。</p>
+<h3 id="os">OS</h3>
+<p>Arch Linux: ドライバもろもろがぜんぜんわかんなくて疲れてやめた<br>→Ubuntu Gnome 16.04: 重いのと面白みがないのでやめた<br>→Manjaro Linux: ふつうに使えるところまですんなりいけたけどなんか余分なもん入ってる感が強くてやめた<br>→Arch Linux: 今度こそと思ったけどやっぱつらくてやめた<br>→Manjaro Linux: 結局これが色々とほどよいので採用</p>
+<p>ちなみに、プリインストールされてたWindows 10はうっかりブートローダ潰してどうにもならなくなってしまってパー。バックアップもなし。やらかしてしまいました。まぁどうせ使わないし…</p>
+<h3 id="window-manager">Window manager</h3>
+<p>Awesome。抑えで最初から入ってたXfce。<br>タイル型一度は使ってみたかったのです。自分にはかなり合うなぁという感想。</p>
+]]></content>
+        <author>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </author>
+        <contributor>
+            <name>kaave</name>
+            <email>junkjunction@gmail.com</email>
+            <uri>https://kaave.github.io/</uri>
+        </contributor>
+    </entry>
     <entry>
         <title type="html"><![CDATA[サイトまるごと作り直しました]]></title>
         <id>https://kaave.github.io/blog/2017/07/02-ordinary-day.html</id>
@@ -96,49 +203,6 @@
 <p>仕事で右からニュッと出てくるメニューをCSSアニメーション使って書いた。<br>いや〜CSSアニメーションホント楽。</p>
 <h3 id="-">めし</h3>
 <p>豚肉とにんにくの芽炒めを作った。</p>
-]]></content>
-        <author>
-            <name>kaave</name>
-            <email>junkjunction@gmail.com</email>
-            <uri>https://kaave.github.io/</uri>
-        </author>
-        <contributor>
-            <name>kaave</name>
-            <email>junkjunction@gmail.com</email>
-            <uri>https://kaave.github.io/</uri>
-        </contributor>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ATR]]></title>
-        <id>https://kaave.github.io/blog/2016/04/03-atr.html</id>
-        <link href="https://kaave.github.io/blog/2016/04/03-atr.html">
-        </link>
-        <updated>2016-04-03T00:00:00Z</updated>
-        <content type="html"><![CDATA[<h2 id="atr">ATR</h2>
-<p>シャキッとしないのでATR聞いているが、ハイテンションになるための音楽としてATRを超えるものはなかなかないんじゃないだろうか。</p>
-<h3 id="-">めし</h3>
-<p>ラフテーとレンズ豆のマリネ作った。</p>
-<p>レンズ豆は5~6分茹でると硬さが残っていい感じ。</p>
-]]></content>
-        <author>
-            <name>kaave</name>
-            <email>junkjunction@gmail.com</email>
-            <uri>https://kaave.github.io/</uri>
-        </author>
-        <contributor>
-            <name>kaave</name>
-            <email>junkjunction@gmail.com</email>
-            <uri>https://kaave.github.io/</uri>
-        </contributor>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[特に何もしなかった]]></title>
-        <id>https://kaave.github.io/blog/2016/04/02-ordinary-day.html</id>
-        <link href="https://kaave.github.io/blog/2016/04/02-ordinary-day.html">
-        </link>
-        <updated>2016-04-02T00:00:00Z</updated>
-        <content type="html"><![CDATA[<h2 id="-">なにもしなかった</h2>
-<p>勉強も遊びも家の掃除もなんもしてない。<br>どうも土曜日はこうなりがち。</p>
 ]]></content>
         <author>
             <name>kaave</name>
