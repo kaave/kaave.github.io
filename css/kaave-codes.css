@@ -1,0 +1,12 @@
+.icon-wantedly:before {
+    content: "\e80e";
+} /* '' */
+.icon-twitter:before {
+    content: "\f099";
+} /* '' */
+.icon-facebook:before {
+    content: "\f09a";
+} /* '' */
+.icon-github-circled:before {
+    content: "\f09b";
+} /* '' */

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://kaave.github.io</id>
+    <title>kaave.github.io</title>
+    <updated>2018-09-22T14:54:48.099Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Kyousuke Abe</name>
+        <email>junkjunctions@gmail.com</email>
+        <uri>https://kaave.github.io/about/</uri>
+    </author>
+    <link rel="alternate" href="https://kaave.github.io"/>
+    <link rel="self" href="https://kaave.github.io/atom.xml"/>
+    <subtitle>Kyousuke Abe a.k.a. kaaveのサイト。主にWeb情報ネタなど中心に色々です。</subtitle>
+    <logo>https://kaave.github.io/ogp.jpg</logo>
+    <icon>https://kaave.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2018, Kyousuke Abe</rights>
+    <entry>
+        <title type="html"><![CDATA[Pixi.jsでGlitch]]></title>
+        <id>https://kaave.github.io/entries/2018/0614-pixi-glitch.html</id>
+        <link href="https://kaave.github.io/entries/2018/0614-pixi-glitch.html">
+        </link>
+        <updated>2018-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「Pixi.jsでGlitch」についての投稿です。]]></summary>
+        <content type="html"><![CDATA[Pixi.jsでGlitch]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイトまるごと作り直しました]]></title>
+        <id>https://kaave.github.io/entries/2017/0702-ordinary-day.html</id>
+        <link href="https://kaave.github.io/entries/2017/0702-ordinary-day.html">
+        </link>
+        <updated>2017-07-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「サイトまるごと作り直しました」についての投稿です。]]></summary>
+        <content type="html"><![CDATA[サイトまるごと作り直しました]]></content>
+    </entry>
+</feed>
