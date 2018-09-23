@@ -21,19 +21,23 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "52eba246a738119b1f09adbd25386776"
+    "revision": "39e2c7ec10806b9b7eb7e5168737c882"
   },
   {
     "url": "about/index.html",
-    "revision": "0bef0b5ecc14edf46de7f21ad9a682fd"
+    "revision": "88f670a9ba4e2ea0322d6c1593433800"
   },
   {
-    "url": "assets/css/0.styles.2da2f59a.css",
-    "revision": "2a9dd85efe773f006b294bfd8c8568b3"
+    "url": "assets/css/0.styles.ff3a76eb.css",
+    "revision": "482e7ef0be14b1befbed376e57f82c94"
   },
   {
-    "url": "assets/js/10.6a537d09.js",
-    "revision": "7b19c6f32e2ad3c9cd1ccb1567d685ef"
+    "url": "assets/js/10.107f4834.js",
+    "revision": "2a0e51a0e9038574e46f64f2ec0723b2"
+  },
+  {
+    "url": "assets/js/11.33de596a.js",
+    "revision": "84fd0c9db7c4ce5ee4e489f9de346f9f"
   },
   {
     "url": "assets/js/2.4faa4522.js",
@@ -52,24 +56,24 @@ self.__precacheManifest = [
     "revision": "38141e57b845075fa14fc4ab149286d6"
   },
   {
-    "url": "assets/js/6.8d1fa845.js",
-    "revision": "06628dd56b6bee774a7faa01cb3832a8"
+    "url": "assets/js/6.952ce4b0.js",
+    "revision": "505473549cecd10734d22dbefeb9df73"
   },
   {
-    "url": "assets/js/7.78fbcb14.js",
-    "revision": "5c473c59e4c08d751246aed70e4879ce"
+    "url": "assets/js/7.d218a362.js",
+    "revision": "e161f58b3b52b286cc21f2048d64a6e4"
   },
   {
-    "url": "assets/js/8.b33b4ccc.js",
-    "revision": "9f0b4ac98c2cfd4e8c541b087ec48221"
+    "url": "assets/js/8.f448438b.js",
+    "revision": "6cc8115016fba58d4f2d73a0e94c1ddf"
   },
   {
-    "url": "assets/js/9.1187de05.js",
-    "revision": "524660388e31c327b5663ef503824425"
+    "url": "assets/js/9.0e7ebef7.js",
+    "revision": "e6523dec9f32593e85c4c58120f3599a"
   },
   {
-    "url": "assets/js/app.4479cde3.js",
-    "revision": "167237ac7f373f8243ab5f6b6d782172"
+    "url": "assets/js/app.953bc455.js",
+    "revision": "8de5afa5f6f8e193f3d1882e7f540b74"
   },
   {
     "url": "css/animation.css",
@@ -97,19 +101,27 @@ self.__precacheManifest = [
   },
   {
     "url": "entries/2017/0702-ordinary-day.html",
-    "revision": "7c185022605c715e3c2f88adad0690d8"
+    "revision": "c2b235eb2e62a5f8ffeb8de6dd88f337"
   },
   {
     "url": "entries/2018/0614-pixi-glitch.html",
-    "revision": "db909caa95c2718dcccd9037863be87c"
+    "revision": "32de20fd766bcf7dd612261950006f48"
   },
   {
     "url": "entries/2018/0614/thumbnail.gif",
     "revision": "acb224f5d39f168b8427221cacbfe92c"
   },
   {
+    "url": "entries/2018/0923-vuepress.html",
+    "revision": "995044e1e0c7a57124bf512fc7469084"
+  },
+  {
+    "url": "entries/2018/0923/thumbnail.png",
+    "revision": "e790a805f20a8b4597c7ff3bbdb2ff8a"
+  },
+  {
     "url": "entries/index.html",
-    "revision": "c1b5f2f474d84ffb23a14b1fd10bd84b"
+    "revision": "0817904384de88b10a763b22ce8c3ae4"
   },
   {
     "url": "font/kaave.eot",
@@ -157,7 +169,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "80cceb77ded92d20904e1c2f9524f82a"
+    "revision": "94e85351f1d4fae12eb7e2944d94d3b1"
   },
   {
     "url": "ogp.jpg",
