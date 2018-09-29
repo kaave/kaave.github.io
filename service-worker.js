@@ -21,19 +21,19 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "7b63cc86be127245318a6cd7a0fab22f"
+    "revision": "db94c75b8ee94d517b7fb1f2d507b34d"
   },
   {
     "url": "about/index.html",
-    "revision": "f2a35583ddc2909297571e1d30f80658"
+    "revision": "a3a3faaf7e863e1d69e89858d05a759f"
   },
   {
     "url": "assets/css/0.styles.ff3a76eb.css",
     "revision": "482e7ef0be14b1befbed376e57f82c94"
   },
   {
-    "url": "assets/js/10.107f4834.js",
-    "revision": "2a0e51a0e9038574e46f64f2ec0723b2"
+    "url": "assets/js/10.b829501b.js",
+    "revision": "a636e3e6afaad26eac9dc3fafa578f06"
   },
   {
     "url": "assets/js/11.33de596a.js",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "revision": "e6523dec9f32593e85c4c58120f3599a"
   },
   {
-    "url": "assets/js/app.e4ebcd86.js",
-    "revision": "aa1462ee32172e12cc4025d852af26a4"
+    "url": "assets/js/app.8bde2d4d.js",
+    "revision": "143acec2ee19dfca86b075f47ee3efe6"
   },
   {
     "url": "css/animation.css",
@@ -101,11 +101,11 @@ self.__precacheManifest = [
   },
   {
     "url": "entries/2017/0702-ordinary-day.html",
-    "revision": "d1cbe2da9252744d47723a1e4da4e197"
+    "revision": "509f3ed5548e458847a504e50ba9262c"
   },
   {
     "url": "entries/2018/0614-pixi-glitch.html",
-    "revision": "e3e3486e54e5c5627e295fd18a4f3937"
+    "revision": "5ddd0870c097ca07b3a86b71153eab32"
   },
   {
     "url": "entries/2018/0614/thumbnail.gif",
@@ -113,7 +113,7 @@ self.__precacheManifest = [
   },
   {
     "url": "entries/2018/0923-vuepress.html",
-    "revision": "fcb84c9c437b5d07ea7b5a949780f5c5"
+    "revision": "50bf17ab873c29dbdf21a6cb7c084d3f"
   },
   {
     "url": "entries/2018/0923/thumbnail.png",
@@ -121,7 +121,7 @@ self.__precacheManifest = [
   },
   {
     "url": "entries/index.html",
-    "revision": "fb6ba10562d5dfce98ac941f37553abb"
+    "revision": "19b30402645bb2722dd674cbf7c810ae"
   },
   {
     "url": "font/kaave.eot",
@@ -173,7 +173,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "8952c0cf554a55515ef441324bec869f"
+    "revision": "51edb3c5f48da09d09b29d13304e844c"
   },
   {
     "url": "ogp.jpg",
