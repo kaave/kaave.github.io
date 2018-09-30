@@ -21,11 +21,11 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "0869bded4e9222b6c7320aab6348c8c2"
+    "revision": "06532bd2b13572102b61254199775914"
   },
   {
     "url": "about/index.html",
-    "revision": "636d5f8366fc8d2c4c5b756003bceecf"
+    "revision": "addafb4b6d6dcf227d8101ff42ae07c7"
   },
   {
     "url": "assets/css/0.styles.4955f728.css",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "revision": "524660388e31c327b5663ef503824425"
   },
   {
-    "url": "assets/js/app.232212ae.js",
-    "revision": "8a4c247f18ae78b359c3428cbf4778cc"
+    "url": "assets/js/app.776a43f7.js",
+    "revision": "2153b5f22490df9249faec349e466958"
   },
   {
     "url": "css/animation.css",
@@ -105,11 +105,11 @@ self.__precacheManifest = [
   },
   {
     "url": "entries/2017/0702-ordinary-day.html",
-    "revision": "d02a40771d32e2cbbd143ddc6f6a4d64"
+    "revision": "d25e3262b3429ff545a0750db3be01e5"
   },
   {
     "url": "entries/2018/0614-pixi-glitch.html",
-    "revision": "ee1dbe06d953a1c9326c888ddda00b67"
+    "revision": "75825fda84e9d1545c5e7e857c176468"
   },
   {
     "url": "entries/2018/0614/thumbnail.gif",
@@ -117,7 +117,7 @@ self.__precacheManifest = [
   },
   {
     "url": "entries/2018/0923-vuepress.html",
-    "revision": "a6fb40b3aca5059a052e9b35d33011e8"
+    "revision": "5bf1528cced88820a5d9ab1b04b49187"
   },
   {
     "url": "entries/2018/0923/thumbnail.png",
@@ -125,7 +125,7 @@ self.__precacheManifest = [
   },
   {
     "url": "entries/2018/0930-webgl-vscode.html",
-    "revision": "a7af3c6d5401076eb5fcf1c096881f6b"
+    "revision": "a00204c3f764ab656e4d85045e107b5b"
   },
   {
     "url": "entries/2018/0930/thumbnail.png",
@@ -133,7 +133,7 @@ self.__precacheManifest = [
   },
   {
     "url": "entries/index.html",
-    "revision": "20e016cb7ad14c0e00111cd0a0f4c6bb"
+    "revision": "185153ff8a4663d748ead30d689c13f2"
   },
   {
     "url": "font/kaave.eot",
@@ -185,7 +185,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "fc6b3b9fd2ad590bc357d4edeb93f89e"
+    "revision": "7b5f942e60e2fbdba2edb5efaeaf57a4"
   },
   {
     "url": "ogp.jpg",
