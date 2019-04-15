@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kaave.github.io</id>
     <title>kaave.github.io</title>
-    <updated>2018-11-18T13:51:24.880Z</updated>
+    <updated>2019-04-15T09:29:03.803Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Kyousuke Abe</name>
@@ -14,7 +14,7 @@
     <subtitle>Kyousuke Abe a.k.a. kaaveのサイト。主にWeb情報ネタなど中心に色々です。</subtitle>
     <logo>https://kaave.github.io/ogp.jpg</logo>
     <icon>https://kaave.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2018, Kyousuke Abe</rights>
+    <rights>All rights reserved 2019, Kyousuke Abe</rights>
     <entry>
         <title type="html"><![CDATA[WebGL入門のためにVScodeをガッチリ設定]]></title>
         <id>https://kaave.github.io/entries/2018/0930-webgl-vscode.html</id>
